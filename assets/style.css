@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: linear-gradient(55deg, rgb(245, 84, 84), rgb(75, 104, 233));
+    height: 100vh;
+}
+main{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cronometro{
+    height: 200px;
+    width: 550px;
+    display: flex;
+    justify-content: space-around;
+}
+.cronometro span{
+    display: flex;
+    color: #000;
+    font-size: 50px;
+    font-weight: 500;
+}
+.cronometro div{
+    width: 150px;
+    background: linear-gradient(45deg, rgb(255, 159, 159), #fff);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, .5);
+}
+.cronometro span.tempo{
+    font-size: 20px;
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+}
+input{
+    border: 0;
+    padding: 4px;
+    border-radius: 3px;
+    background: linear-gradient(35deg, rgb(255, 159, 159), rgb(142, 174, 226));
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    margin-right: 3px;
+}
+
